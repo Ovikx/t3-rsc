@@ -1,5 +1,29 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Setup
+
+Install dependencies
+
+```sh
+npm install
+```
+
+Create base .env file
+
+```sh
+echo 'DATABASE_URL=' > .env.local ;echo 'GOOGLE_CLIENT_ID=' >> .env.local ; echo 'GOOGLE_CLIENT_SECRET=' >> .env.local ; echo 'NEXTAUTH_SECRET=PUT_AN_ACTUAL_SECRET_HERE' >> .env.local ; echo 'NEXTAUTH_URL=http://localhost:3000' >> .env.local
+```
+
+Generate Prisma types
+
+```sh
+npx prisma generate
+```
+
+Now you should be good to go
+
+# Next.js Instructions
+
 ## Getting Started
 
 First, run the development server:
