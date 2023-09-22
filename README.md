@@ -11,7 +11,7 @@ npm install
 Create base .env file
 
 ```sh
-echo 'DATABASE_URL=' > .env.local ;echo 'GOOGLE_CLIENT_ID=' >> .env.local ; echo 'GOOGLE_CLIENT_SECRET=' >> .env.local ; echo 'NEXTAUTH_SECRET=PUT_AN_ACTUAL_SECRET_HERE' >> .env.local ; echo 'NEXTAUTH_URL=http://localhost:3000' >> .env.local
+echo 'DATABASE_URL=' > .env ;echo 'GOOGLE_CLIENT_ID=' >> .env ; echo 'GOOGLE_CLIENT_SECRET=' >> .env ; echo 'NEXTAUTH_SECRET=PUT_AN_ACTUAL_SECRET_HERE' >> .env ; echo 'NEXTAUTH_URL=http://localhost:3000' >> .env
 ```
 
 Generate Prisma types
